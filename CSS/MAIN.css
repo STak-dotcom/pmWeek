@@ -145,7 +145,7 @@ a {
     gap: 20px;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 5vh;
+    margin-bottom: 20px;
 }
 
 @media (width <= 590px) {
@@ -163,6 +163,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 @media (width <= 810px)
 {
     .img4 {
@@ -173,10 +174,12 @@ a {
 
     }
 }
+
 iframe{
     height: 496px;
     border-radius: 2%;
 }
+
 figure {
     display: flex;
     flex-flow: column;
