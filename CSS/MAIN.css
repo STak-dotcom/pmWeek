@@ -103,7 +103,8 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    margin: 75px;
+    /*margin: 75px;*/
+    margin: 4vw;
     font-family: "Arial", sans-serif;
 
 }
@@ -132,6 +133,9 @@ a {
     img {
         width: 300px;
         height: auto;
+    }
+    iframe {
+        width: 90vw;
     }
 }
 
