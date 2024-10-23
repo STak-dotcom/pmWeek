@@ -49,15 +49,15 @@
   
 <script>
     function login_compare() {
-        const username_correct = "username";
-        const password_correct = "password";
+        const username_correct = "CodersBay";
+        const password_correct = "cbpw123";
         
         const entered_username = document.getElementById("username").value;
         const entered_password = document.getElementById("password").value;
         
         if (entered_username === username_correct && entered_password === password_correct){
             document.getElementById("result").textContent = "Welcome!";
-            window.location.href = "../Index.html"
+            window.location.href = "./HOME.html"
         } else {
             document.getElementById("result").textContent = "e-mail or password wrong";
         }
