@@ -111,6 +111,15 @@ a {
 .containerProduct > p {
     line-height: 1.5em;
 }
+
+.orderbtn {
+    padding: 0.5rem;
+    background-color: #222222;
+    color: #eaedf4;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
 .containerAbout {
     display: flex;
     align-items: center;
@@ -127,6 +136,16 @@ a {
     line-height: 1.5em;
     text-align: center;
     max-width: 600px;
+}
+
+.containerOrder {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
 }
 
 @media (width <= 590px) {
