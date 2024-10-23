@@ -114,13 +114,13 @@ a {
 .containerAbout {
     display: flex;
     align-items: center;
-    /*justify-content: center;*/
+    /* justify-content: center; */
     gap: 50px;
     flex-direction: column;
     flex-wrap: wrap;
     font-family: Arial, sans-serif;
     /*max-width: 800px;*/
-    margin: 2vw;
+    margin: 0px 5px;
 }
 
 .containerAbout > p {
