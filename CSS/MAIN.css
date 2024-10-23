@@ -113,14 +113,21 @@ a {
 .containerAbout {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
     gap: 50px;
     flex-direction: column;
     flex-wrap: wrap;
     font-family: Arial, sans-serif;
     /*max-width: 800px;*/
-    margin: 2rem;
+    margin: 2vw;
 }
+
+.containerAbout > p {
+    line-height: 1.5em;
+    text-align: center;
+    max-width: 600px;
+}
+
 @media (width <= 590px) {
     img {
         width: 300px;
