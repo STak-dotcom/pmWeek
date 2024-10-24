@@ -129,7 +129,7 @@ a {
     flex-wrap: wrap;
     font-family: Arial, sans-serif;
     /*max-width: 800px;*/
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 
 .containerAbout > p {
